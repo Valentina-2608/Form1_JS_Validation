@@ -1,0 +1,78 @@
+.main{
+width:1240px;
+height:800px;
+background-image:url(../img/numbers.png);
+background-repeat:no-repeat;
+position:relative;
+margin: 0 auto;
+opacity:0.8;
+}
+
+.sheet_paper{
+width:1000px;
+height:700px;
+position:absolute;
+top:60px;
+left:100px;
+background-image:url(../img/image1.png);
+}
+
+.form-name{
+width:500px;
+height:50px;
+font-size:40px;
+font-style:italic;
+font-weight:bold;
+text-align:center;
+position:absolute;
+top:180px;
+left:210px;
+text-shadow:5px 5px 10px violet;
+}
+
+form{width:370px;
+height:300xp;
+position:absolute;
+top:250px;
+left:300px;
+border:none;}
+
+fieldset{border:none;}
+
+#name, #email{width:300px;
+height:35px;
+margin-left:80xp;
+margin-top:20px;
+border:1px solid grey;
+border-radius:3px;
+box-shadow:2px 3px 5px #DD9AEA;}
+
+#btn{width:120px;
+height:35px;
+border-radius:20px;
+margin-top:25px;
+border:none;
+color:white;
+margin-left:90px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b5467d+0,3f08a0+100 */
+background: #b5467d; /* Old browsers */
+background: -moz-linear-gradient(top,  #b5467d 0%, #3f08a0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #b5467d 0%,#3f08a0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #b5467d 0%,#3f08a0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5467d', endColorstr='#3f08a0',GradientType=0 ); /* IE6-9 */
+
+}
+
+#btn:hover{
+cursor:pointer;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3f08a0+0,b5467d+100 */
+background: #3f08a0; /* Old browsers */
+background: -moz-linear-gradient(top,  #3f08a0 0%, #b5467d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #3f08a0 0%,#b5467d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #3f08a0 0%,#b5467d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f08a0', endColorstr='#b5467d',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+
